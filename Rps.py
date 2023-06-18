@@ -1,7 +1,7 @@
 import random 
 
 start = input("You want to play RPS? (Y/N) ")
-if start == "Y" or "y" or "yes" or "Yes":
+if start == "Y":
 	game = input ("Ok, Choose (R/P/S) ")
 	if game == "R":
 		r = random.randint(1,3)
